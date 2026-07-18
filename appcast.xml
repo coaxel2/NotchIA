@@ -33,6 +33,23 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.10</title>
+            <pubDate>Sat, 18 Jul 2026 02:51:54 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20910</sparkle:version>
+            <sparkle:shortVersionString>2.9.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.10 — Polyglot Parrot 🦜</h2>
+<h3>🌍 L'IA respecte enfin votre langue, à 100 %</h3>
+<ul>
+<li><b>Digest quotidien</b> : les résumés sont désormais générés entièrement dans la langue de l'app (English, Français, Español, Deutsch), même quand les articles sources sont dans une autre langue. Fini les sections mi-anglais mi-français.</li>
+<li><b>Résumés de documents (Étagère)</b> : même correction pour les résumés de fichiers déposés.</li>
+<li>Les affichages de secours du Digest (sans IA) sont également traduits dans les 4 langues.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.10/NotchIA.dmg" length="13640380" type="application/octet-stream" sparkle:edSignature="YQNi3tytNiNWrgV8LIK3oZqyfp71fH+kBHaYbn4VDxMEtAsxH4damtyJ3JxLeb+vZX12bBqeL6N3rAZmyR8WBA=="/>
+        </item>
+        <item>
             <title>2.9.9</title>
             <pubDate>Fri, 17 Jul 2026 15:25:58 +0000</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
@@ -64,19 +81,6 @@
 - **Étagère (Shelf)** : un échec de compression ZIP ne laisse plus de copies orphelines des fichiers dans le dossier temporaire.
 - **Export diagnostic** : un échec de création du rapport est maintenant détecté proprement au lieu d'ouvrir un fichier inexistant dans le Finder.]]></description>
             <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.8/NotchIA.dmg" length="12438373" type="application/octet-stream" sparkle:edSignature="hDFtlcu9vs0qfWmJv66oOO3xsAnQ5a7oCAWqG1K0WKhw1zRC/tVt4AID8YTNQCHG8BHs9Hn1fq0VXg9kV4QkCQ=="/>
-        </item>
-        <item>
-            <title>2.9.7</title>
-            <pubDate>Wed, 10 Jun 2026 15:48:32 +0000</pubDate>
-            <link>https://github.com/coaxel2/NotchIA/releases</link>
-            <sparkle:version>20907</sparkle:version>
-            <sparkle:shortVersionString>2.9.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[# NotchIA v2.9.7 — Sealed Badger 🦡
-
-## 🔒 Confidentialité
-- **Rapport de diagnostic** (Réglages → Avancé) : le rapport exporté ne contient désormais **que les réglages de NotchIA**. Il n'embarque plus, par erreur, de préférences système (trackpad, son, Apple Intelligence…) ni de contenu personnel (résumés Digest, prompt, historique Pomodoro, identifiant d'écran). La sélection se fait maintenant sur le domaine de préférences de l'app au lieu du domaine global hérité.]]></description>
-            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.7/NotchIA.dmg" length="13617505" type="application/octet-stream" sparkle:edSignature="FXbW5JhTBW9rOiXZSIS2zvC1zWizn+Xb9XhngNEQ9ckkFJuvsK3dxReXqLilGmkRwSTjj1nZH/KvUAdnGusODg=="/>
         </item>
         <item>
             <title>2.7.3</title>
