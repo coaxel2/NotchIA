@@ -33,6 +33,22 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.14</title>
+            <pubDate>Fri, 14 Aug 2026 00:14:57 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20914</sparkle:version>
+            <sparkle:shortVersionString>2.9.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.14 — Ready Beaver 🦫</h2>
+<h3>📋 Presse-papiers plus utilisable</h3>
+<ul>
+<li>L'icône d'épingle est <b>cliquable</b> directement — plus besoin de passer par le clic-droit. L'item épinglé se distingue par une <b>bande jaune sur le côté gauche</b> (avant : teinte à 7% quasi invisible sur fond sombre).</li>
+<li>L'icône « lien » sur les URLs et l'icône « e-mail » sont maintenant <b>cliquables</b> et ouvrent directement le navigateur / le client mail — geste naturel « je clique sur un lien, il s'ouvre ». Le clic sur le reste de la ligne continue de copier normalement.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.14/NotchIA.dmg" length="13722104" type="application/octet-stream" sparkle:edSignature="P6ocFjt9SiZm0rKxHJiPVuQ3CfHIMvbBxKYqg99lAGeXQpfgk58VHXwUdHbILY+2lbVdeTHM3GnP67JFDTG0Dw=="/>
+        </item>
+        <item>
             <title>2.9.13</title>
             <pubDate>Fri, 14 Aug 2026 00:04:22 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
@@ -75,40 +91,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.12/NotchIA.dmg" length="13670333" type="application/octet-stream" sparkle:edSignature="vk1YMIdT6RaH5p6ETcgRiCJFTT2NsnGPJMu/qDucgMiej81nJDKK0t39K+l9VpQThJ+EcDcS5iqT9I2Ga09RBQ=="/>
-        </item>
-        <item>
-            <title>2.9.11</title>
-            <pubDate>Thu, 13 Aug 2026 23:13:26 +0200</pubDate>
-            <link>https://github.com/coaxel2/NotchIA/releases</link>
-            <sparkle:version>20911</sparkle:version>
-            <sparkle:shortVersionString>2.9.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>NotchIA v2.9.11 — Chameleon Frame 🦎</h2>
-
-<h3>🖥 La notch reste visible partout</h3>
-<ul>
-<li>Fini la notch qui disparaît quand vous travaillez sur un autre écran : l'affichage sur tous les écrans branchés est désormais l'option par défaut, y compris pour les utilisateurs existants.</li>
-</ul>
-
-<h3>🎨 Miniatures média enfin propres, quel que soit le format</h3>
-<ul>
-<li>Les pochettes d'album (YouTube, Spotify, Apple Music…) s'affichent maintenant sans déformation, ni recadrage forcé, ni bandes noires — même quand le service renvoie une image 16:9 au lieu d'un carré. Le contour est complété par une version floutée de l'image elle-même (rendu type Apple Music).</li>
-</ul>
-
-<h3>🌍 Traductions complétées et cohérentes</h3>
-<ul>
-<li>Dialogues « Ouvrir avec… » et « Convertir l'image » du Shelf entièrement traduits (avant : anglais forcé quel que soit le réglage).</li>
-<li>Les sources RSS du Digest (OpenAI, Anthropic, TechCrunch, Nature, NASA…) et leurs sous-titres sont traduits dans les 4 langues.</li>
-<li>Un dialogue d'erreur et un bouton d'annulation Réglages qui restaient en français dur en anglais/espagnol/allemand sont corrigés.</li>
-</ul>
-
-<h3>🔒 Renforcement sécurité</h3>
-<ul>
-<li>Le helper privilégié (contrôle luminosité écran/clavier) authentifie désormais l'app appelante via l'audit token du kernel plutôt que par PID (moins spoofable).</li>
-<li>Le fichier d'historique du presse-papiers et la configuration Claude Code sont écrits avec des permissions restreintes au seul utilisateur.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.11/NotchIA.dmg" length="13663674" type="application/octet-stream" sparkle:edSignature="d5h/WYbNHkV4MFMVJN8y7Vj2ME491nuvPbZh91rLaIDHNGg3E5TnhlYvQL5NTe5wq3g9lyANJU9ElDAsBCm2DQ=="/>
         </item>
         <item>
             <title>2.7.3</title>
