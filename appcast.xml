@@ -33,6 +33,23 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.12</title>
+            <pubDate>Thu, 13 Aug 2026 23:33:42 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20912</sparkle:version>
+            <sparkle:shortVersionString>2.9.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.12 — Sharp Lynx 🐆</h2>
+<h3>🖼 Qualité des miniatures média corrigée</h3>
+<ul>
+<li>Le rendu des pochettes est désormais <strong>net et fidèle à l'image d'origine</strong> — interpolation SwiftUI haute qualité + anti-aliasing.</li>
+<li>Sur les petits badges (encoche fermée, sneak peek), l'artwork remplit à nouveau tout le carré (crop centré) pour éviter l'effet « rétrécie derrière un flou ».</li>
+<li>La grande vue de la notch ouverte conserve le rendu adaptatif ratio-préservé (backdrop flouté) pour les artworks non-carrées comme YouTube 16:9.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.12/NotchIA.dmg" length="13670333" type="application/octet-stream" sparkle:edSignature="vk1YMIdT6RaH5p6ETcgRiCJFTT2NsnGPJMu/qDucgMiej81nJDKK0t39K+l9VpQThJ+EcDcS5iqT9I2Ga09RBQ=="/>
+        </item>
+        <item>
             <title>2.9.11</title>
             <pubDate>Thu, 13 Aug 2026 23:13:26 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
@@ -82,21 +99,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.10/NotchIA.dmg" length="13640380" type="application/octet-stream" sparkle:edSignature="YQNi3tytNiNWrgV8LIK3oZqyfp71fH+kBHaYbn4VDxMEtAsxH4damtyJ3JxLeb+vZX12bBqeL6N3rAZmyR8WBA=="/>
-        </item>
-        <item>
-            <title>2.9.9</title>
-            <pubDate>Fri, 17 Jul 2026 15:25:58 +0000</pubDate>
-            <link>https://github.com/coaxel2/NotchIA/releases</link>
-            <sparkle:version>20909</sparkle:version>
-            <sparkle:shortVersionString>2.9.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[# NotchIA v2.9.9 — Counting Crow 🐦‍⬛
-
-## 📊 Onglet IA : des chiffres enfin justes
-- **Le % de contexte affiche désormais la vraie valeur**, directement depuis la source officielle de Claude Code. Fini la pastille bloquée à 100 % en rouge : les sessions à grande fenêtre (1M tokens) sont correctement reconnues au lieu d'être calculées sur 200k.
-- **Multi-session fiable** : la taille de fenêtre de chaque session est mémorisée, donc le % reste juste même en jonglant entre plusieurs sessions Claude Code.
-- Les tokens de la requête en cours et la taille de fenêtre affichés dans les stats sont alignés sur les mêmes sources officielles.]]></description>
-            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.9/NotchIA.dmg" length="12440193" type="application/octet-stream" sparkle:edSignature="nEBsJcnH1IkSdn/b7QuVbTV/+7OE7z4LoEqFD2dYFeLwIV08tuR1kM033adpekp7ojH6dgygYH0AjrAoP9SOBw=="/>
         </item>
         <item>
             <title>2.7.3</title>
