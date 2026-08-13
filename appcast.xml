@@ -33,6 +33,40 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.11</title>
+            <pubDate>Thu, 13 Aug 2026 23:13:26 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20911</sparkle:version>
+            <sparkle:shortVersionString>2.9.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.11 — Chameleon Frame 🦎</h2>
+
+<h3>🖥 La notch reste visible partout</h3>
+<ul>
+<li>Fini la notch qui disparaît quand vous travaillez sur un autre écran : l'affichage sur tous les écrans branchés est désormais l'option par défaut, y compris pour les utilisateurs existants.</li>
+</ul>
+
+<h3>🎨 Miniatures média enfin propres, quel que soit le format</h3>
+<ul>
+<li>Les pochettes d'album (YouTube, Spotify, Apple Music…) s'affichent maintenant sans déformation, ni recadrage forcé, ni bandes noires — même quand le service renvoie une image 16:9 au lieu d'un carré. Le contour est complété par une version floutée de l'image elle-même (rendu type Apple Music).</li>
+</ul>
+
+<h3>🌍 Traductions complétées et cohérentes</h3>
+<ul>
+<li>Dialogues « Ouvrir avec… » et « Convertir l'image » du Shelf entièrement traduits (avant : anglais forcé quel que soit le réglage).</li>
+<li>Les sources RSS du Digest (OpenAI, Anthropic, TechCrunch, Nature, NASA…) et leurs sous-titres sont traduits dans les 4 langues.</li>
+<li>Un dialogue d'erreur et un bouton d'annulation Réglages qui restaient en français dur en anglais/espagnol/allemand sont corrigés.</li>
+</ul>
+
+<h3>🔒 Renforcement sécurité</h3>
+<ul>
+<li>Le helper privilégié (contrôle luminosité écran/clavier) authentifie désormais l'app appelante via l'audit token du kernel plutôt que par PID (moins spoofable).</li>
+<li>Le fichier d'historique du presse-papiers et la configuration Claude Code sont écrits avec des permissions restreintes au seul utilisateur.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.11/NotchIA.dmg" length="13663674" type="application/octet-stream" sparkle:edSignature="d5h/WYbNHkV4MFMVJN8y7Vj2ME491nuvPbZh91rLaIDHNGg3E5TnhlYvQL5NTe5wq3g9lyANJU9ElDAsBCm2DQ=="/>
+        </item>
+        <item>
             <title>2.9.10</title>
             <pubDate>Sat, 18 Jul 2026 02:51:54 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
@@ -63,24 +97,6 @@
 - **Multi-session fiable** : la taille de fenêtre de chaque session est mémorisée, donc le % reste juste même en jonglant entre plusieurs sessions Claude Code.
 - Les tokens de la requête en cours et la taille de fenêtre affichés dans les stats sont alignés sur les mêmes sources officielles.]]></description>
             <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.9/NotchIA.dmg" length="12440193" type="application/octet-stream" sparkle:edSignature="nEBsJcnH1IkSdn/b7QuVbTV/+7OE7z4LoEqFD2dYFeLwIV08tuR1kM033adpekp7ojH6dgygYH0AjrAoP9SOBw=="/>
-        </item>
-        <item>
-            <title>2.9.8</title>
-            <pubDate>Fri, 17 Jul 2026 14:59:51 +0000</pubDate>
-            <link>https://github.com/coaxel2/NotchIA/releases</link>
-            <sparkle:version>20908</sparkle:version>
-            <sparkle:shortVersionString>2.9.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[# NotchIA v2.9.8 — Patient Eagle 🦅
-
-## 🔔 Notifications
-- **Fini les notifications « Claude a terminé » prématurées** : quand Claude Code lance des tâches en arrière-plan (agents, commandes longues), NotchIA attend désormais la **vraie fin du travail** avant de notifier. Plus de « terminé » en plein milieu d'une tâche qui continue toute seule.
-
-## 🛠 Corrections
-- **Apple Music** : l'état de lecture est désormais mis à jour sur le thread principal (affichage plus fiable de la pochette et des infos de piste).
-- **Étagère (Shelf)** : un échec de compression ZIP ne laisse plus de copies orphelines des fichiers dans le dossier temporaire.
-- **Export diagnostic** : un échec de création du rapport est maintenant détecté proprement au lieu d'ouvrir un fichier inexistant dans le Finder.]]></description>
-            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.8/NotchIA.dmg" length="12438373" type="application/octet-stream" sparkle:edSignature="hDFtlcu9vs0qfWmJv66oOO3xsAnQ5a7oCAWqG1K0WKhw1zRC/tVt4AID8YTNQCHG8BHs9Hn1fq0VXg9kV4QkCQ=="/>
         </item>
         <item>
             <title>2.7.3</title>
