@@ -33,6 +33,22 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.16</title>
+            <pubDate>Fri, 14 Aug 2026 00:28:34 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20916</sparkle:version>
+            <sparkle:shortVersionString>2.9.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.16 — Neat Squirrel 🐿️</h2>
+<h3>📌 Vraie section « Épinglés »</h3>
+<ul>
+<li>Les éléments épinglés apparaissent désormais dans leur <b>propre section en tête</b> du presse-papiers, avec icône pin jaune et libellé « Épinglés ». Avant, un item épinglé était rangé dans le groupe de son app d'origine (ex : sous le header « Notes ») — placement perçu comme aléatoire.</li>
+<li>Les sections par app ne contiennent que les items non épinglés — les favoris ne polluent plus les groupes d'apps.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.16/NotchIA.dmg" length="13729996" type="application/octet-stream" sparkle:edSignature="j5RnDu9G8mi06Yg7K6vYJrFeoxYG5PvvBwQXC2qFjbstKTAxRDqJaloPoNRZTOigN7bIOtyw/EVYXXqhtwwDBQ=="/>
+        </item>
+        <item>
             <title>2.9.15</title>
             <pubDate>Fri, 14 Aug 2026 00:21:55 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
@@ -63,33 +79,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.14/NotchIA.dmg" length="13722104" type="application/octet-stream" sparkle:edSignature="P6ocFjt9SiZm0rKxHJiPVuQ3CfHIMvbBxKYqg99lAGeXQpfgk58VHXwUdHbILY+2lbVdeTHM3GnP67JFDTG0Dw=="/>
-        </item>
-        <item>
-            <title>2.9.13</title>
-            <pubDate>Fri, 14 Aug 2026 00:04:22 +0200</pubDate>
-            <link>https://github.com/coaxel2/NotchIA/releases</link>
-            <sparkle:version>20913</sparkle:version>
-            <sparkle:shortVersionString>2.9.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>NotchIA v2.9.13 — Curious Octopus 🐙</h2>
-
-<h3>🖥 La notch ne disparaît plus quand vous utilisez Chrome</h3>
-<ul>
-<li>Si vous écoutez YouTube Music / Spotify Web / etc. depuis Chrome, Safari, Firefox, Arc… l'app musicale détectée = le navigateur. La notch se cachait dès que le navigateur passait en plein écran (F11, vidéo YouTube fullscreen). Corrigé : les navigateurs sont désormais explicitement ignorés par la détection « masquer en plein écran musical ».</li>
-</ul>
-
-<h3>🎨 Miniatures YouTube Music en haute résolution</h3>
-<ul>
-<li>Les pochettes servies par YouTube Music (URLs Google/YouTube) étaient parfois en 60×60 ou 90×90 → forcément pixellisées sur écran Retina. NotchIA demande maintenant une version 544×544 (Google image serving) ou <code>maxresdefault.jpg</code> (i.ytimg.com) — image nette, y compris sur la grande vue notch ouverte.</li>
-</ul>
-
-<h3>📋 Presse-papiers plus intelligent</h3>
-<ul>
-<li><b>Détection automatique</b> du type de contenu : URL, couleur (hex/rgb), e-mail, JSON, nombre, code, texte. Badge visuel discret par ligne, et véritable pastille de couleur si vous copiez un code hex/rgb.</li>
-<li><b>Actions rapides contextuelles</b> : « Ouvrir dans le navigateur » pour une URL, « Nouveau message » pour un e-mail, « Copier reformaté (JSON) » pour prettifier un JSON, sous-menu « Encoder / décoder » (base64, URL-encode) pour tout texte ou code.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.13/NotchIA.dmg" length="13705836" type="application/octet-stream" sparkle:edSignature="IO6Ju4ecmvM6ybwdg7RW86NHonikBaZI8GS7ZeNusFuyTb8VljYVAlGPBbTRhnzFECl/kYYBghXJ7QgKSRNvCQ=="/>
         </item>
         <item>
             <title>2.7.3</title>
