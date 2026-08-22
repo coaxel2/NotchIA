@@ -33,6 +33,22 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.17</title>
+            <pubDate>Sat, 22 Aug 2026 16:49:39 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20917</sparkle:version>
+            <sparkle:shortVersionString>2.9.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.17 — Quiet Turtle 🐢</h2>
+<h3>🌐 La notch n'interfère plus avec vos drags dans le navigateur</h3>
+<ul>
+<li>Quand vous êtes dans <b>Chrome, Safari, Firefox, Arc, Brave, Edge, Vivaldi, Opera, Chromium, Dia</b>, la détection automatique du drag vers l'Étagère est désactivée. Réorganiser vos onglets, drag un lien ou une image intra-page ne déclenche plus l'ouverture de l'encoche.</li>
+<li>Le drop vers l'Étagère reste possible manuellement : ouvrez d'abord la notch (survol), puis lâchez votre fichier dessus.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.17/NotchIA.dmg" length="13733075" type="application/octet-stream" sparkle:edSignature="AGQt+HzWml9U7EJFD/a7DkcLdZ2Nkir6gK8l/0ouOBVoGIxp94zh/B+ZtT+jm5ccBEgWsPOtw3RibQlwce26DA=="/>
+        </item>
+        <item>
             <title>2.9.16</title>
             <pubDate>Fri, 14 Aug 2026 00:28:34 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
@@ -63,22 +79,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.15/NotchIA.dmg" length="13727698" type="application/octet-stream" sparkle:edSignature="VOHGTusuG9ZmsDAsQF1Wy4p8QxRvOfJvBNI76Yjz7A2uywQ4b5UOVYQxU75hWMDNMyzUGmGbyrAERkR4G72eBQ=="/>
-        </item>
-        <item>
-            <title>2.9.14</title>
-            <pubDate>Fri, 14 Aug 2026 00:14:57 +0200</pubDate>
-            <link>https://github.com/coaxel2/NotchIA/releases</link>
-            <sparkle:version>20914</sparkle:version>
-            <sparkle:shortVersionString>2.9.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>NotchIA v2.9.14 — Ready Beaver 🦫</h2>
-<h3>📋 Presse-papiers plus utilisable</h3>
-<ul>
-<li>L'icône d'épingle est <b>cliquable</b> directement — plus besoin de passer par le clic-droit. L'item épinglé se distingue par une <b>bande jaune sur le côté gauche</b> (avant : teinte à 7% quasi invisible sur fond sombre).</li>
-<li>L'icône « lien » sur les URLs et l'icône « e-mail » sont maintenant <b>cliquables</b> et ouvrent directement le navigateur / le client mail — geste naturel « je clique sur un lien, il s'ouvre ». Le clic sur le reste de la ligne continue de copier normalement.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.14/NotchIA.dmg" length="13722104" type="application/octet-stream" sparkle:edSignature="P6ocFjt9SiZm0rKxHJiPVuQ3CfHIMvbBxKYqg99lAGeXQpfgk58VHXwUdHbILY+2lbVdeTHM3GnP67JFDTG0Dw=="/>
         </item>
         <item>
             <title>2.7.3</title>
