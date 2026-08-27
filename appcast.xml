@@ -33,6 +33,29 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.18</title>
+            <pubDate>Thu, 27 Aug 2026 14:50:04 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20918</sparkle:version>
+            <sparkle:shortVersionString>2.9.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.18 — Keen Owl 🦉</h2>
+<h3>🎵 Le logo du service, plus celui du navigateur</h3>
+<ul>
+<li>Quand la musique ou la vidéo vient d'un navigateur, la pastille sous la pochette affiche le logo du <b>service</b> — YouTube, Twitch, SoundCloud, Deezer, Netflix, Vimeo… — au lieu de celui de Chrome ou Safari.</li>
+<li>En bien meilleure définition que le cache favicon du navigateur : YouTube 144 px au lieu de 16, Twitch 180 au lieu de 32, SoundCloud 512.</li>
+<li>L'onglet qui joue est identifié par le titre <b>et</b> l'artiste. En cas d'ambiguïté, l'icône du navigateur reste affichée plutôt que de montrer le mauvais logo.</li>
+<li>Vie privée : seuls les domaines que vous visitez déjà sont contactés, aucun service tiers de favicons, requêtes sans cookies, cache local.</li>
+<li>macOS demandera l'accès <b>AppleEvents</b> au premier morceau joué depuis un navigateur — c'est ce qui permet de lire l'URL de l'onglet actif. Un refus désactive simplement la fonctionnalité pour ce navigateur.</li>
+</ul>
+<h3>🔧 Correction</h3>
+<ul>
+<li>La liste des navigateurs reconnus était dupliquée en trois endroits et avait divergé — un navigateur oublié pouvait faire disparaître la notch en plein écran ou ouvrir l'Étagère pendant un drag d'onglets. Source unique désormais.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.18/NotchIA.dmg" length="13795588" type="application/octet-stream" sparkle:edSignature="2ZeGtAiuG3460b9xDN3gqT3B+EphMO7eGxmvfBcI/5O8DdxjRUXN9qttaLZqHNS/bYHf5LpRLkZ4OO+tpEgTBg=="/>
+        </item>
+        <item>
             <title>2.9.17</title>
             <pubDate>Sat, 22 Aug 2026 16:49:39 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
