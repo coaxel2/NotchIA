@@ -33,6 +33,32 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.19</title>
+            <pubDate>Thu, 27 Aug 2026 15:33:25 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20919</sparkle:version>
+            <sparkle:shortVersionString>2.9.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.19 — Guarded Pangolin 🦔</h2>
+<p>Mise à jour de sécurité. Rien ne change à l'usage.</p>
+<h3>🔐 Les outils de téléchargement vidéo sont vérifiés</h3>
+<ul>
+<li><b>yt-dlp</b> et <b>ffmpeg</b> étaient installés puis exécutés sans aucun contrôle d'intégrité, dans un dossier modifiable sans privilège particulier. Un programme malveillant déjà présent pouvait y substituer son binaire et se faire exécuter par NotchIA.</li>
+<li>yt-dlp est désormais comparé à l'empreinte publiée par ses auteurs ; ffmpeg à la taille publiée par son distributeur.</li>
+<li>Surtout : l'empreinte de ce qui est installé est <b>revérifiée avant chaque exécution</b>, ce qui détecte un remplacement survenu longtemps après l'installation.</li>
+<li>Un outil modifié est réinstallé automatiquement — rien à faire.</li>
+</ul>
+<h3>🔑 Licence</h3>
+<ul>
+<li><b>Limite d'appareils appliquée.</b> Elle était signalée par le serveur mais ignorée par l'app. Si vous atteignez la limite, NotchIA vous l'explique ; votre clé n'est <b>jamais effacée</b> et le Pro revient dès qu'un autre Mac est libéré.</li>
+<li><b>Horloge système</b> : l'expiration d'abonnement ne se fie plus à l'heure de la machine.</li>
+<li><b>Format durci</b> : une licence dont la version ou l'expiration sont incohérentes est refusée.</li>
+<li>La clé de développement n'est plus conservée en clair dans le trousseau.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.19/NotchIA.dmg" length="13848801" type="application/octet-stream" sparkle:edSignature="J2XLZbpzOQxcjq4VqjkYosSPYD92Qnds+wl/Hb6jFXMKtPN594vROh9MxMmiC1c4aGY5GlY2XSeiDPZ1VvdxDQ=="/>
+        </item>
+        <item>
             <title>2.9.18</title>
             <pubDate>Thu, 27 Aug 2026 14:50:04 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
