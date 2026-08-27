@@ -33,6 +33,34 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.20</title>
+            <pubDate>Thu, 27 Aug 2026 16:56:37 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20920</sparkle:version>
+            <sparkle:shortVersionString>2.9.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.20 — Homing Pigeon 🕊️</h2>
+<h3>🔍 Vos sessions IA retrouvées après un déplacement de dossier</h3>
+<ul>
+<li>Si vous aviez <b>renommé ou déplacé un dossier de projet</b>, ses sessions Claude devenaient <b>totalement invisibles</b> dans NotchIA : plus de chrono, plus d'activité en direct, plus de notification de fin de tour.</li>
+<li>En cause : Claude Code laisse un lien symbolique de l'ancien chemin vers le nouveau, que NotchIA ne traversait pas. Rien ne le signalait.</li>
+<li>Sur la machine de test, 3 projets sur 4 étaient muets depuis une simple réorganisation de dossiers.</li>
+</ul>
+<h3>🔔 Notifications enfin cliquables</h3>
+<ul>
+<li>Cliquer une notification ne faisait <b>rien</b> : il manquait le délégué qui gère les clics.</li>
+<li>Les notifications étaient aussi <b>masquées par macOS</b> quand NotchIA était l'app active — fréquent pour une app d'encoche.</li>
+<li>Désormais : un clic sur « Claude a terminé » ramène au premier plan le terminal ou l'IDE de la session.</li>
+</ul>
+<h3>⚠️ Alerte quand une autorisation manque</h3>
+<ul>
+<li>Une fonctionnalité privée d'autorisation ne se plaignait pas : elle ne faisait simplement rien. NotchIA vous prévient maintenant, avec un lien qui ouvre <b>directement le bon volet</b> de Réglages système.</li>
+<li>Sans harcèlement : rien n'est signalé pour une fonctionnalité que vous avez désactivée, et un même manque n'est rappelé qu'une fois par semaine.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.20/NotchIA.dmg" length="13880299" type="application/octet-stream" sparkle:edSignature="cpQO8OUFBU5G35a3lGdU8z9g2nPvP6PrerMnce+e1u8l8rLOl2RbkYDxa8RSzSAPKwpngBPc2K7LpjX7rMmoCQ=="/>
+        </item>
+        <item>
             <title>2.9.19</title>
             <pubDate>Thu, 27 Aug 2026 15:33:25 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
