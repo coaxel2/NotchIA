@@ -33,6 +33,32 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.21</title>
+            <pubDate>Fri, 28 Aug 2026 12:17:34 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20921</sparkle:version>
+            <sparkle:shortVersionString>2.9.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.21 — Tracking Bloodhound 🐕</h2>
+
+<h3>Le chrono de vos sessions IA dit enfin la vérité</h3>
+<p>Il restait bloqué sur <code>00:00</code> au repos, se réancrait en plein travail sur des lignes techniques que Claude Code génère lui-même (18 minutes de travail effacées de l'affichage sur une session de test), et continuait de défiler indéfiniment après une session interrompue. Les trois défauts sont corrigés.</p>
+
+<h3>Plusieurs terminaux à la fois</h3>
+<p>Quand plusieurs sessions travaillent en parallèle, l'encoche les affiche toutes. Chaque terminal occupe un couple de cellules de part et d'autre de l'encoche : projet et chrono à gauche, état et tokens à droite. Un nom trop long défile en boucle.</p>
+
+<h3>Un œil pour tout replier</h3>
+<p>Au-delà de deux éléments, un petit œil apparaît à droite : un clic replie toute la barre, un second la réaffiche.</p>
+
+<h3>Aussi</h3>
+<ul>
+<li>La barre compacte pouvait déborder de sa fenêtre — coins carrés, vignette rognée, éléments manquants — quand musique, concentration et plusieurs terminaux s'affichaient ensemble.</li>
+<li>Vignette de lecture aux coins un peu plus arrondis.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.21/NotchIA.dmg" length="13974722" type="application/octet-stream" sparkle:edSignature="O3j6Ll3MdnNg9nfnmhNCKL/XOiWUVcPEAY5GQ98QSt2QRjz8pe7i6fHxV4fwxekjjp92hXQJ4c8/XW1xz3LlBQ=="/>
+        </item>
+        <item>
             <title>2.9.20</title>
             <pubDate>Thu, 27 Aug 2026 16:56:37 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
