@@ -33,6 +33,29 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.23</title>
+            <pubDate>Fri, 28 Aug 2026 14:30:51 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20923</sparkle:version>
+            <sparkle:shortVersionString>2.9.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.23 — Nimble Chameleon 🦎</h2>
+
+<h3>La densité de l'interface fonctionne enfin</h3>
+<p>Le réglage proposait Compact, Normal et Large… et ne changeait rien. Ces trois choix pilotent maintenant vraiment la notch ouverte : hauteur d'en-tête, marges, espacements, onglets, boutons et arrondis suivent. Compact resserre d'environ 10 %, Large donne 15 % d'air en plus. L'encoche fermée reste calquée sur celle du Mac.</p>
+
+<h3>Un aperçu immédiat au changement</h3>
+<p>Comme seule la notch ouverte est concernée, changer la densité ne produisait aucun retour visuel. La notch s'ouvre désormais une seconde et demie pour montrer le résultat, puis se referme seule.</p>
+
+<h3>32 réglages s'appliquent à chaud</h3>
+<p>Toute une famille de réglages n'apparaissait qu'après un redémarrage. Trente-deux basculent maintenant instantanément : incrustations de volume et de luminosité, effet d'éclairage, paroles, teinte du lecteur, arrondi, ombre, spectrogramme, filtres du calendrier, détections d'appel, d'enregistrement et de Bluetooth.</p>
+
+<h3>Deux bascules qui ne commandaient plus rien</h3>
+<p>Revue des 104 réglages de l'app. Les aperçus de volume et de luminosité du moteur périodique changeaient d'état sans le moindre effet : leurs widgets avaient été retirés, pas leurs interrupteurs. Ils ont disparu.</p>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.23/NotchIA.dmg" length="13976087" type="application/octet-stream" sparkle:edSignature="cZcvxc+A6ZnkuvK1ok+PSB/BKZLQzkvrsIJOksHdTku2IW0twAu57YTbaDQKWsn9ONrtAwOMO2rJs1Onm+7RDg=="/>
+        </item>
+        <item>
             <title>2.9.22</title>
             <pubDate>Fri, 28 Aug 2026 13:50:43 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
