@@ -33,6 +33,23 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.22</title>
+            <pubDate>Fri, 28 Aug 2026 13:50:43 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20922</sparkle:version>
+            <sparkle:shortVersionString>2.9.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.22 — Poised Heron 🐦</h2>
+
+<h3>L'incrustation de volume et de luminosité retrouve sa juste place</h3>
+<p>Elle s'étirait sur toute la longueur de l'encoche depuis que celle-ci peut afficher plusieurs terminaux, jusqu'à traîner une large bande noire autour du niveau. Elle a désormais une taille fixe, reste centrée, et porte son propre fond. Les autres sections restent visibles pendant le réglage.</p>
+
+<h3>Du vrai Liquid Glass</h3>
+<p>L'incrustation adopte le matériau Liquid Glass d'Apple — le composant natif lui-même, dans le style que macOS 26 utilise pour son HUD de volume et de luminosité. Repli sur le fond noir précédent sous macOS 26.</p>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.22/NotchIA.dmg" length="13980211" type="application/octet-stream" sparkle:edSignature="WawF+wEFXGzaBvC5GXQONNx3AmEWt9EgxH6aq5jl+5j6gtYbGJvpNsOXmPSLeIUHKUMwKczSmEguChxEQSP+Dw=="/>
+        </item>
+        <item>
             <title>2.9.21</title>
             <pubDate>Fri, 28 Aug 2026 12:17:34 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
