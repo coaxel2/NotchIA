@@ -33,6 +33,20 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.24</title>
+            <pubDate>Fri, 25 Sep 2026 10:58:53 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20924</sparkle:version>
+            <sparkle:shortVersionString>2.9.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.24 — Steady Otter 🦦</h2>
+
+<h3>L'app ne plante plus à l'ouverture chez les utilisateurs Pro qui ont renommé un fil Codex</h3>
+<p>Depuis l'activation de Pro, NotchIA pouvait se fermer net quelques instants après le lancement. En cause, la lecture de l'index des fils Codex : cet index conserve une ligne par renommage d'un même fil, et NotchIA exigeait des identifiants uniques. Corrigé, la version la plus récente de chaque fil est retenue. Votre licence n'a rien à refaire.</p>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.24/NotchIA.dmg" length="13920252" type="application/octet-stream" sparkle:edSignature="cd8yDgcC+ooEwYW60XsleLzjsI6AL2Gax8N5OomKn2fFNKOvdFsdN6STAi/crqLGH/9PJ1/sbXg7fJLeTAdJBQ=="/>
+        </item>
+        <item>
             <title>2.9.23</title>
             <pubDate>Fri, 28 Aug 2026 14:30:51 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
