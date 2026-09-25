@@ -33,6 +33,20 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.25</title>
+            <pubDate>Fri, 25 Sep 2026 11:42:17 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20925</sparkle:version>
+            <sparkle:shortVersionString>2.9.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>NotchIA v2.9.25 — Tidy Wren 🐦</h2>
+
+<h3>Compact devient la densité de tout le monde</h3>
+<p>La densité Normale laissait la notch ouverte plus haute que nécessaire. Compact, qui la resserre d'environ 10 %, devient la valeur par défaut et s'applique à tous dès cette mise à jour, y compris à ceux qui avaient laissé Normal. Ceux qui avaient choisi Large le gardent, et le réglage reste libre dans Réglages, section Densité.</p>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.25/NotchIA.dmg" length="13920047" type="application/octet-stream" sparkle:edSignature="iAGlm6jwRhJdYejTyZUwlbpRWvtBuxlis7XoBme34+Qj10KL/SSbvj/moVmEaxjavOM8fcy42m6+/VZv0BKvCA=="/>
+        </item>
+        <item>
             <title>2.9.24</title>
             <pubDate>Fri, 25 Sep 2026 10:58:53 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
