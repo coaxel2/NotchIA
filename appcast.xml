@@ -33,6 +33,33 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.26</title>
+            <pubDate>Sat, 17 Oct 2026 15:52:06 +0200</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20926</sparkle:version>
+            <sparkle:shortVersionString>2.9.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>✨ Une encoche qui s'ouvre vraiment</h2>
+<p>L'encoche s'agrandit désormais depuis l'encoche matérielle, portée par un ressort avec un léger dépassement en fin de course, puis se résorbe sans rebond à la fermeture. Jusqu'ici elle apparaissait d'un coup, déjà à sa taille finale. Le contenu arrive un souffle après le début du mouvement, en fondu, et s'efface avant que l'encoche ne se referme.</p>
+<p>Si « Réduire les animations » est activé dans les réglages d'accessibilité de macOS, l'encoche passe par un simple fondu, sans ressort.</p>
+
+<h2>🧭 Codex : plus de session fantôme, et un clic pour y aller</h2>
+<ul>
+<li>Un Codex interrompu juste après le début d'un tour laissait l'encoche afficher « Codex travaille » avec un chrono qui pouvait courir pendant des heures. L'encoche vérifie maintenant qu'un process Codex existe encore, et qu'il était déjà lancé au début du tour. Sinon, le tour est refermé.</li>
+<li>Un clic sur la cellule Codex de l'encoche fermée amène au premier plan la fenêtre où Codex travaille : terminal, VS Code ou l'app ChatGPT. Dans l'onglet IA, un bouton « Afficher &lt;app&gt; » fait de même, pour Claude comme pour Codex. Dans Terminal et iTerm2, c'est l'onglet exact qui est sélectionné.</li>
+<li>Les points de session Claude d'une session lancée dans un terminal mènent maintenant à ce terminal.</li>
+</ul>
+
+<h2>🧠 Claude Code : des sessions mieux détectées</h2>
+<ul>
+<li>Seuls les process Claude qui ont un terminal de contrôle comptent comme des sessions. Ceux lancés par des outils (l'observateur de claude-mem, le pont de l'extension Chrome) n'apparaissent plus comme des sessions en plus.</li>
+<li>Avec Claude Code 2.1.300 et suivants, les copies de requêtes présentes dans le transcript ne relancent plus le chrono et ne remettent plus les compteurs du tour à zéro.</li>
+<li>Échap pendant une réponse termine bien le tour, /compact n'en ouvre plus, et une fin de tour libère les outils encore en attente : « Permission » ne reste plus affiché une fois le tour fini.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.26/NotchIA.dmg" length="13976408" type="application/octet-stream" sparkle:edSignature="+U2RUEt+JGbY0AACGIGPncGDgYsfm0QTTI3dc+cXooJqXgdDHXr4kM+hpnvFA8zCytfMiPAMuLVZbGHR5WsxCQ=="/>
+        </item>
+        <item>
             <title>2.9.25</title>
             <pubDate>Fri, 25 Sep 2026 11:42:17 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
