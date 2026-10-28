@@ -33,6 +33,30 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>2.9.27</title>
+            <pubDate>Wed, 28 Oct 2026 20:45:11 +0100</pubDate>
+            <link>https://github.com/coaxel2/NotchIA/releases</link>
+            <sparkle:version>20927</sparkle:version>
+            <sparkle:shortVersionString>2.9.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🦢 Des onglets qui s'enchaînent en douceur</h2>
+<p>Changer d'onglet fait maintenant un fondu enchaîné : l'onglet quitté s'efface, puis le nouveau apparaît avec un léger agrandissement depuis le haut, pendant que l'encoche prend sa nouvelle taille avec le même ressort qu'à l'ouverture. Jusqu'ici, deux onglets pouvaient se superposer un instant, et le lecteur de l'onglet Média glissait par-dessus les icônes quand on revenait dessus.</p>
+<ul>
+<li>L'onglet Calendrier n'affiche plus « Accès au calendrier requis » une fraction de seconde à sa première ouverture.</li>
+<li>Si « Réduire les animations » est activé dans les réglages d'accessibilité de macOS, le changement d'onglet passe par un simple fondu.</li>
+</ul>
+
+<h2>📂 Convertir et Résumé PDF : le dépôt de fichier fonctionne</h2>
+<ul>
+<li>Déposer un fichier sur « Convertir » ou « Résumé PDF » refermait l'encoche une demi-seconde plus tard : le fichier n'arrivait jamais, et pouvait même finir sur le Bureau. L'encoche reste maintenant ouverte jusqu'au dépôt, puis se referme normalement quand la souris s'en va.</li>
+<li>« Convertir » accepte un nouveau fichier par-dessus le précédent, après une erreur comme après une conversion terminée.</li>
+<li>L'extension du fichier (PNG, JPEG…) ne s'affiche plus lettre par lettre, en colonne.</li>
+<li>« Résumé PDF » affiche le nom du fichier au lieu d'un identifiant technique, et NotchIA ne se fige plus pendant la lecture d'un PDF scanné.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/coaxel2/NotchIA/releases/download/v2.9.27/NotchIA.dmg" length="13993818" type="application/octet-stream" sparkle:edSignature="HQdgaNR+UPzKjllQLDl/9uRPulUdpqhnLrs6Nh/Bqy3VVt8OLYG9egTIlW6t2mV6P9/wrikakbQT7VKRQTkjDw=="/>
+        </item>
+        <item>
             <title>2.9.26</title>
             <pubDate>Sat, 17 Oct 2026 15:52:06 +0200</pubDate>
             <link>https://github.com/coaxel2/NotchIA/releases</link>
